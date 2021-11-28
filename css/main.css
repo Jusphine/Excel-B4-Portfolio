@@ -1,0 +1,68 @@
+.main-header{
+    background: url(../img/background.png);
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-image{
+    background: url(../img/background.png);
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#left,
+#right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    min-height: 600px;
+}
+
+#left {
+    left: 0;
+    background-color: #AEB4C4;
+    width: 50%;
+}
+
+#right {
+    right: 0;
+    background-color: #C4C9DD;
+    width: 50%;
+}
+
+#logo{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sh{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sh1{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active-link {
+    color: white;
+    font-weight: bold;
+}
+
+#about{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#basic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

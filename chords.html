@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/#main.css">
+
+    <title>UCanUke</title>
+</head>
+<body>
+    <header class="main-header">
+        <div id="left"></div>
+        <div id="right"></div>
+        <nav class="transparent">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html" class="brand-logo" id="logo">UC<span class="black-text">an</span>U<span class="black-text">ke</span></a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger right">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="">
+                                <a href="index.html" class="active-link">Home</a>
+                            </li>
+                            <li class="">
+                                <a href="about.html" class="active-link">About</a>
+                            </li>
+                            <li class="active">
+                                <a href="chords.html" class="active-link">Chords</a>
+                            </li>
+                            <li>
+                                <a href="songs.html" class="active-link">Songs</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Sidenav -->
+                        <ul class="sidenav" id="slide-out">
+                            <h4 class="blue-text lighten-4 center">UCanUke</h4>
+                            <li>
+                                <a href="index.html" class="active-link">Home</a>
+                            </li>
+                           <li>
+                                <a href="about.html" class="active-link">About</a>
+                           </li>
+                            <li class="active">
+                                <a href="chords.html" class="active-link">Chords</a>
+                            </li>
+                            <li>
+                                <a href="songs.html" class="active-link">Songs</a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+        <!-- Basic Chords -->
+        <div class="background-image">
+            <div class="container">
+                <h6 class="black-text" id="basic">Basic Chords</h6>
+                <div class="carousel carousel-slider center">
+                        <a class="carousel-item" href="#one!"><img src="img/basic.chords1.png"></a>
+                        <a class="carousel-item" href="#two!"><img src="img/basic.chords2.png"></a>
+                </div>
+                <br><br>
+            <!-- Basic Strumming -->
+                <h6 class="black-text" id="basic">Basic Strumming Pattern</h6>
+                <div class="carousel carousel-slider center">
+                        <a class="carousel-item" href="#one!"><img src="img/strumming1.png"></a>
+                        <a class="carousel-item" href="#two!"><img src="img/strumming2.png"></a>
+                        <a class="carousel-item" href="#three!"><img src="img/strumming3.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav({
+                edge: 'right',
+            });
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                numVisible: 1
+            });
+        });
+    </script>
+</body>
+</html>
